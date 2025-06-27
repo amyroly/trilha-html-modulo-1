@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos de HTML</title>
+</head>
+<body>
+    <header></header>
+        <h1 id="início">Primeiro desafio HTML-<i>Bootcampo Santander</i></h1>
+        <hr/>
+        <nav>
+            <ul>
+                <li><a href="#título">Tags título: h1 - h6</a></li>
+                <li><a href="#inserção">Tags para inserção de texto: p, blockquote, q, small, article, aside, abbr </a></li>
+                 <li><a href="#formatação">Tags para formatação de texto:i, u, b, strong,font, sub e sup</a></li>
+                 <li><a href="#exclusão">Tag para exclusão do texto: del e s</a></li>
+                 <li><a href="#mídia">Tags de mídia: audio, video, figure, iframe, img  </a></li>
+                 <li><a href="#divisão">Tags de divisão:br, div, span e section </a></li>
+                 <li><a href="#conexão">Tags de conexão: a, button e base </a></li>
+                 <li><a href="#legenda">Tags de legendagem: caption, figcaption e track </a></li>
+                 <li><a href="#tabela">Tags de tabela: table, thead, tbody, tfooter, row, col, li, ul e ol </a></li>
+            </ul>
+        </nav>
+        <section>
+            <article>
+            <h2 id="título">Tags título: h1 - h6</h2> 
+            <small><a href="#início"> Voltar </a></small>
+            <p>As tags h1 à h6 definem títulos hierarquicamente. A tag h1 define o título de maior importância na página, enquanto o h6 define o título de menor relevância. Não é recomentado pular nenhum título, mas, utiliza-los em ordem. 
+            </p>
+            </article>
+        </section>
+        <section>
+            <article>
+            <h2 id="inserção"> Tags para inserção de texto: p, blockquote, q, small, article, aside, abbr </h2>
+            <small><a href="#início"> Voltar </a></small>
+            <blockquote cite="https://warcontent.com/frases-para-programadores/"> “Um dos meus dias mais produtivos foi quando eu joguei fora 1000 linhas de código.” </blockquote>
+            <p> O HTML tem tags próprias para inserção de cada tipo de texto. Verifiquemos algumas destas tags a seguir:<br>
+                A tag 'p' serve para inserir um parágrafo na página. <br>
+                A tag 'small' serve para inserir um texto bem pequeno na página, como símbolo de copyright ou o botão volta, presente neste texto. <br>
+                A tag 'aside' serve para adicionar informações que não são fundamentais ao texto. Ao se falar sobre vendas de carros, pode-se adicionar um aside sobre pneus, por exemplo. <br>
+                A tag 'article' é um texto completo e independente. São matérias de jornais, por exemplo, que não dependem de outras partes do site para serem compreendidas. <br>
+                A tag 'blockquote' serve para inserir uma citação longa na página. Por sua vez, a tag 'q' serve para inserir uma citação bem curta. <br>
+                A tag 'abbr' serve para inserir uma abreviação ou um acrônimo no arquivo <abbr tittle="Hypertext markup language">HTML</abbr>. Nesta frase, a palavra HTML foi escrita com esta tag. <br>
+                A tag 'time' 
+            </p>
+            </article>
+        </section>
+         <section>
+            <article>
+            <h2 id="formatação">Tags para formatação de texto:i, u, b, strong,font, sub e sup</h2>
+            <small><a href="#início"> Voltar </a></small>
+            <p> Ao longo do curso, aprendemos sete tags de formatação de texto, de maneira mais focada. São elas: <br>
+                A tag 'i' torna o texto itálico e a tag 'u' coloca um sublinhado no texto. 
+                As tags 'b' e 'strong' são similares mas possuem diferença semântica. Enquanto a tag 'b'. apenas coloca o texto em negrito. A tag 'strong' coloca o texto em negrito e enfatiza a relevância daquele determinado trecho do texto. <br>       
+                A tag 'sup' define um texto acima do texto regular, como a pontecia da matemática. Enquanto a tag 'sub' define um texto abaixo do texto regular, como o número 2 em h<sub>2</sub>o.
+                A tag 'font' servia para definir a fonte do texto. Contudo, esta tag caiu em desuso após o HTML5.  
+            </p>
+            </article>
+        </section>
+        <section>
+            <article>
+            <h2 id="exclusão">Tag para exclusão do texto: del e s</h2>
+            <small><a href="#início"> Voltar </a></small>
+            <p> Existem dois tipos de tags para exclusão no HTML: del e s. <br>
+                A tag 'del'sinaliza uma parte deletada do texto. É comum que ela seja usada com a tag 'ins' que insere um substituto para tal trecho deletado. Essa tag tem dois atributos: 'cite', no qual é possível citar a url que explica a razão da exclusão e 'datetime', que especifíca a hora e o dia da exclusão. <br>
+                A tag 's'  marca um texto que já não está correta, mas não o exclui. Ao invés disso, o texto aparecerá taxado. 
+            </p>
+            </article>
+        </section>
+        <section>
+            <article>
+            <h2 id="mídia">Tags de mídia: audio, video, figure, iframe, img</h2>
+            <small><a href="#início"> Voltar </a></small>
+            <figure>
+                <img src="/codificacao-de-programa-de-computador-na-tela.jpg" alt="imagem de códigos" style="width: 50%;">
+                <figcaption > Fig 1. Imagens de códigos </figcaption>
+            </figure>
+            <p> A tag 'audio' é usada para anexar áudios à pagina HTML. Esta tag aceita três formatos: mp3, WAV e OGG. É recomendado adicionar mais de um source de áudio para caso o primeiro não funcione. Alguns navegadores podem não aceitar a tag audio. Neste caso, é interessante incluir uma mensagem na tag, que será exibida em caso de defeito. A tag 'audio' contém diversos atributos: autoplay, controls, loop, muted, preload e o src. <br>
+                A tag 'video' é usada para anexar vídeos à página e tem regras de funcionamento similares ao àudio. Esta tag suporta videos MP3, WebM e OGG. Para além dos atributos autoplay, controls, loop, muted e src. A tag 'video' também conta com os atributos height e width, que permitem redimensionamento, preload e poster, que permite add um imagem a ser mostrada enquanto o vídeo carrega. <br>
+                A tag 'img' é usada para anexar imagens à pagina HTML. Esta tag requere os atributos src, onde irá o endereço da imagem, e alt, descrição da imagem que aparece quando a imagem não carrega. Esta tag tem diversos atributos: alt, src, crossorigin, height, width, ismap, loading, determina quando a imagem deve ser carregada, longdesc, determina uma url para uma dewcrição mais detalhada, referrerpolicy, size, srcset e usemap <br>
+                A tag 'iframe' é uma tag usada para indexar documentos externos ao html, como por exemplo, sites. É importante sempre add um atributo 'tittle' para ajudar leitores de tela. O iframe tem diversos atributos:allow, allowfullscreen, allowpaymentrequest, height,width,loading, name, referrerpolicy, sandbox, src, srcdoc. 
+                A tag 'figure' é uma tag que "abraça" conteúdos relacionados à imagem e a sua legenda, como diagrama, imagem, video etc. <br>
+            </p>
+            </article>
+        </section>
+          <section>
+            <article>
+            <h2 id="divisão">Tags de divisão:br, div, span e section</h2>
+            <small><a href="#início"> Voltar </a></small>
+            <p>
+                A tag 'br' insere uma quebra de linha. Este recurso tem sido usado em todos os espaçamentos de definição de tags neste arquivo. <br>
+                A tag 'div' é uma divisão ou uma seção do HTML. Ela não é semanticamente recomendada por não carregar muito significado mas é útil para estilização e containerização. <br>
+                A tag 'span' é um container em linha para marcar uma parte do documento. Enquanto a div marca blocos da página, a span permite marcar unidades menores como uma letra, um setor etc.<br>
+                A tag 'section' cria uma seção no documento. <br>    
+            </p>
+            </article>
+        </section>
+        <section>
+            <article>
+            <h2 id="conexão">Tags de conexão: a, button e base</h2>
+            <small><a href="#início"> Voltar </a></small>
+            <p> A tag 'a' define um hyperlink. <br>
+                A tag 'base' define uma url base ou uma url alvo para a qual apontará todas as urls do documento. <br>
+                A tag 'button' define um botão clicável. Há diferentes tipos de botões: reset, submit, button. <br>       
+            </p>
+            </article>
+        </section>
+        <section>
+            <article>
+            <h2 id="legenda">Tags de legendagem: caption, figcaption e track</h2>
+            <small><a href="#início"> Voltar </a></small>
+               <p> A tag 'caption' define a legenda de uma tabela. Ela deve ser inserida imediatamente após a tag 'table' e normalmente aparece centralizada. <br>
+                A tag 'figcaption' define a legenda de uma foto. É usada junto da tag 'figure' <br>
+                A tag 'track' é usada para legendar vídeos. Para ela funcionar, é necessário colocar um arquivo vtt. com o texto e a minutagem da legenda. Ela tem alguns atributos: default, kind, label, src (obrigatório), srclang. <br>
+                </p>
+            </article>  
+        </section>
+         <section>
+             <article>
+            <h2 id="tabela">Tags de tabela e lista: table, th, tbody, tfooter, tr, td, li, ul e ol</h2>
+            <small><a href="#início"> Voltar </a></small>
+            <p>As tabelas em HTML são construídas dentro da tag 'table'. Contudo, esta tag não implementa uma tabela se usada isoladamente. É necessária a implementação de linhas (rows) e colunas (collumns). Para tanto usamos as tag tr (row) e td (collumns). Estas tags apresentam os dados da tabela. Para a tabela ficar mais semântica, também colocamos o título de cada coluna através da tag 'th' (head). <br>
+               A tabela também pode ter suas seções dividas. Para tanto, utilizamos as tags 'thead' para definir os elementos de título, 'tbody' para implementar a parte da dados (é obrigratório conter pelo menos um tr dentro) e 'tfooter', onde ficará elementos como o total de uma tabela de cálculo. <br>
+               Além da tabela, existe outra formas de apresentar dados em HTML: as listas. Existem dois tipos de lista. As listas ordenadas vem acompnhadas de números e são introduzidas pela tag 'ol'. POr sua vez, as listas não ordenadas tem apenas marcadores e são introduzidas pela tag 'ul'. Uma lista precisa conter itens. A tag 'li' é responsável por introduzir dados à lista. <br>
+            </p>
+            </article> 
+        </section>           
+    </header>    
+</body>
+</html>
